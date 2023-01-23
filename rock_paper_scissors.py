@@ -15,17 +15,17 @@ def check_win(player, computer):
     print(f"You chose {player}, computer chose {computer}.") # f-string
     if player == computer:
         return "It's a tie!" #parenthesis are option () with return
-    elif player == "rock"
+    elif player == "rock":
         if computer == "scissors":
             return "Rock smashes scissors! You win!" 
         else:
             return "Paper covers rock! You lose!"
-    elif player == "paper" 
+    elif player == "paper":
         if computer == "rock":
             return "Paper covers rock! You win!" 
         else:
-        return "Scissors cut paper! You lose!"
-    elif player == "scissors"
+            return "Scissors cuts paper! You lose!"
+    elif player == "scissors":
         if computer == "paper":
             return "Scissors cuts paper! You win!" 
         else:
@@ -33,6 +33,12 @@ def check_win(player, computer):
       
 
 choices = get_choices()
-       #elif player == "rock" and computer == "paper":
+result = check_win(choices["player"], choices["computer"])
+print(resultpap)
 
-## To continue: https://youtu.be/eWRfhZUzrAc?t=1901
+
+
+       #elif player == "rock" and computer == "paper":
+#p_choice = choices["player"]
+#c_choice = choices["computer"]
+## To continue: https://youtu.be/eWRfhZUzrAc?t=2633
