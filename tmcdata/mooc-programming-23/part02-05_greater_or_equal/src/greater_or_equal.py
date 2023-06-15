@@ -9,4 +9,3 @@ elif number2 > number1:
     print(f"The greater number was: {number2} ")
 else:
     print("The numbers are equal!")
-
