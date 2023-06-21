@@ -1,15 +1,13 @@
-# Write your solution here
 
 while True:
     pin = int(input("PIN: "))
-    attempts += 1
-
-    if code == "4321":
-        success = True
-        break
-
-if success = True and attempts == 1:
-    print("Correct! It only took you one single attempt!")
-elif success = True and attempts > 1:
-    print(f"Correct! It took you {attempts} attempts")
-
+    if pin == 4321:
+        if attempt == 1:
+            print("Correct! It only took you one single attempt!")
+            break
+        else:
+            print(f"Correct! It took you {attempt} attempts")
+            break
+    else:
+        attempt += 1
+        print("Wrong")
