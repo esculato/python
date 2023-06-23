@@ -1,12 +1,12 @@
 # Write your solution here
 
 limit = int(input("Upper limit: "))
-sum = 1
+sum = 0
 number = 0
 
 while sum < limit:
-    sum = number + 1
-    print(sum)
-    if
+    number += 1
+    sum = sum + number
+    #sum = += number
 
-print(f"The sum is now {sum}.")
+print(sum)
