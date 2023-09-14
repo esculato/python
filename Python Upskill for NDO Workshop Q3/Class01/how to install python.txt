@@ -1,0 +1,3 @@
+how to install python
+https://realpython.com/installing-python/
+https://realpython.com/python-coding-setup-windows/#configuring-environment-variables
