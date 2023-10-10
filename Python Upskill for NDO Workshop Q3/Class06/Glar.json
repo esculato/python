@@ -1,0 +1,22 @@
+{
+    "id": 547,
+    "name": "Glar",
+    "status": "Alive",
+    "species": "Alien",
+    "type": "",
+    "gender": "Male",
+    "origin": {
+        "name": "unknown",
+        "url": ""
+    },
+    "location": {
+        "name": "Heist-Con",
+        "url": "https://rickandmortyapi.com/api/location/88"
+    },
+    "image": "https://rickandmortyapi.com/api/character/avatar/547.jpeg",
+    "episode": [
+        "https://rickandmortyapi.com/api/episode/34"
+    ],
+    "url": "https://rickandmortyapi.com/api/character/547",
+    "created": "2020-05-07T09:14:34.918Z"
+}
